@@ -1,0 +1,763 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "cba93115-b7ba-40c8-a438-b74eea4adf4d")
+	(paper "A4")
+	(title_block
+		(title "PDU FT24")
+		(company "Nived Jayaprakash Nambiar ")
+		(comment 1 "FasTTUBe Electronics")
+	)
+	(lib_symbols
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+	)
+	(bus
+		(pts
+			(xy 138.43 69.85) (xy 152.4 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "063a10a9-9576-4a89-b6d1-9403bae46512")
+	)
+	(bus
+		(pts
+			(xy 138.43 82.55) (xy 152.4 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "435cab56-4214-4e50-8959-b9ca2bee5006")
+	)
+	(bus
+		(pts
+			(xy 138.43 57.15) (xy 152.4 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "473b7389-24bc-485b-b4dd-b4daa33815e1")
+	)
+	(wire
+		(pts
+			(xy 88.9 40.64) (xy 100.33 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "507f7f3e-fd65-422f-aaf1-c34c7b7a5b87")
+	)
+	(wire
+		(pts
+			(xy 88.9 58.42) (xy 100.33 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51ff8d03-5b48-4fa0-ba11-86a1465ca559")
+	)
+	(wire
+		(pts
+			(xy 100.33 43.18) (xy 88.9 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5471687a-1f29-4dab-9e46-11bfa236c946")
+	)
+	(wire
+		(pts
+			(xy 88.9 55.88) (xy 100.33 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63acda78-d690-45fc-a69a-127e402f267b")
+	)
+	(bus
+		(pts
+			(xy 138.43 44.45) (xy 152.4 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eff34a7-f348-4322-82e2-e9895729b192")
+	)
+	(bus
+		(pts
+			(xy 88.9 102.87) (xy 152.4 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b45712e3-77fe-4719-90ea-d2b5be12a235")
+	)
+	(wire
+		(pts
+			(xy 88.9 45.72) (xy 100.33 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d58e6e9e-2d3f-4ad2-97a9-211c47761e7b")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 26.67 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6929e1c0-a923-492c-8fc4-6d825ce6e5ae")
+		(property "Reference" "H2"
+			(at 29.21 175.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 29.21 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+			(at 26.67 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PDU FT24"
+				(path "/cba93115-b7ba-40c8-a438-b74eea4adf4d"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+			(project "PDU_v2"
+				(path "/fbc58130-b049-4762-872e-e695cf541692"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 26.67 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab319ca1-5116-41a4-93e0-7072ffb30b25")
+		(property "Reference" "H3"
+			(at 29.21 185.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 29.21 187.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+			(at 26.67 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PDU FT24"
+				(path "/cba93115-b7ba-40c8-a438-b74eea4adf4d"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+			(project "PDU_v2"
+				(path "/fbc58130-b049-4762-872e-e695cf541692"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 26.67 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9253a4c-811d-4b80-b645-bf80583dc7d6")
+		(property "Reference" "H1"
+			(at 29.21 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 29.21 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+			(at 26.67 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PDU FT24"
+				(path "/cba93115-b7ba-40c8-a438-b74eea4adf4d"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+			(project "PDU_v2"
+				(path "/fbc58130-b049-4762-872e-e695cf541692"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100.33 38.1)
+		(size 38.1 50.8)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "10dbcd3d-c2df-41dc-832d-4c9bd84254e3")
+		(property "Sheetname" "MCU"
+			(at 100.33 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 100.33 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ISENSE[1..13]" input
+			(at 138.43 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bdaa9758-53d4-4365-9e9e-581327981861")
+		)
+		(pin "EN[1..16]" output
+			(at 138.43 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0133f868-2ac0-47c9-aa00-dd14ecd2c157")
+		)
+		(pin "DSEL[1..8]" output
+			(at 138.43 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ae8bd061-08bc-4092-a8f7-6fae4ed0af7e")
+		)
+		(pin "SWCLK" input
+			(at 100.33 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2120be5b-b604-4145-bbab-38df7342d3f1")
+		)
+		(pin "SWDIO" bidirectional
+			(at 100.33 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f663e966-69c8-4dcb-934e-1095f9ab43ee")
+		)
+		(pin "NRST" input
+			(at 100.33 43.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c8fcc890-b8da-4ca2-948f-6f4a6370e916")
+		)
+		(pin "UART_TX" output
+			(at 100.33 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cefc1313-a142-4848-aed1-2ef789e9abe8")
+		)
+		(pin "UART_RX" input
+			(at 100.33 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6ec31f79-7ca4-42c1-a02d-f4a709aafea8")
+		)
+		(pin "PWM[1..8]" output
+			(at 138.43 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "51d30603-e867-4c64-92ed-8dcde83683be")
+		)
+		(instances
+			(project "PDU FT24"
+				(path "/cba93115-b7ba-40c8-a438-b74eea4adf4d"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 38.1)
+		(size 38.1 50.8)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "27ff76aa-7f65-49fe-8358-3575a2f29ca5")
+		(property "Sheetname" "Power Supply"
+			(at 203.2 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_supply.kicad_sch"
+			(at 203.2 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PDU FT24"
+				(path "/cba93115-b7ba-40c8-a438-b74eea4adf4d"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 38.1)
+		(size 38.1 114.3)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4e25c724-8f65-40d5-9aed-21011dd956f3")
+		(property "Sheetname" "Connectors"
+			(at 50.8 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 50.8 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "POut[1..22]" input
+			(at 88.9 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3eaf9ce3-91f5-443d-b06d-51b38e7c5afb")
+		)
+		(pin "UART_RX" output
+			(at 88.9 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f023676e-7492-4870-be4d-4810821d7a0f")
+		)
+		(pin "UART_TX" input
+			(at 88.9 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2d8f3848-df94-442e-8236-dba438a490d6")
+		)
+		(pin "NRST" output
+			(at 88.9 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c0ed8b97-1bbc-4927-b155-6cba77d051be")
+		)
+		(pin "SWDIO" bidirectional
+			(at 88.9 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a4695ac7-1b68-4beb-8b46-fbf4c8682206")
+		)
+		(pin "SWCLK" output
+			(at 88.9 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a4f68579-1da7-486b-86d5-ef36bf410523")
+		)
+		(instances
+			(project "PDU FT24"
+				(path "/cba93115-b7ba-40c8-a438-b74eea4adf4d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 38.1)
+		(size 38.1 114.3)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fc136761-7437-4777-9313-169871d18382")
+		(property "Sheetname" "Power Stages"
+			(at 152.4 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_stages.kicad_sch"
+			(at 152.4 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "EN[1..16]" input
+			(at 152.4 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4013975f-7048-4441-a42f-bae18de10213")
+		)
+		(pin "DSEL[1..8]" input
+			(at 152.4 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7fc39af5-c50b-421b-b1d9-63f9f5b95995")
+		)
+		(pin "ISENSE[1..13]" output
+			(at 152.4 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6ca6fc28-dca9-47a5-99d5-de680113f1e7")
+		)
+		(pin "POut[1..22]" output
+			(at 152.4 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1a6e48e6-94c9-4323-a4d4-13e753b3a472")
+		)
+		(pin "PWM[1..8]" input
+			(at 152.4 57.15 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "da2852f4-023a-433a-aee8-95b49343c7d7")
+		)
+		(instances
+			(project "PDU FT24"
+				(path "/cba93115-b7ba-40c8-a438-b74eea4adf4d"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

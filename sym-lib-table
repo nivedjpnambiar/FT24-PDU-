@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Custom")(type "KiCad")(uri "${KIPRJMOD}/symbols/Custom.kicad_sym")(options "")(descr ""))
+  (lib (name "BTS700121ESPXUMA1")(type "KiCad")(uri "${KIPRJMOD}/libraries/BTS700121ESPXUMA1/KiCad/BTS700121ESPXUMA1.kicad_sym")(options "")(descr ""))
+)
